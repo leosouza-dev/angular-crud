@@ -76,7 +76,20 @@
 
 ---
 
+### Conhecendo os arquivo do projeto
 
+- **angular.json**: Arquivo de configuração
+ - Alterar o template inline e style inline para false;
+- Dentro da pasta **src**:
+ - Temos o **main.ts**: chama o AppMoule (módulo principal);
+ - O AppModule esta dentro da pasta **app**;
+    - Dentro da pasta temos o arquivo de rota, componente e módulo;
+ - Existe a pasta **assets** - Arquivos estáticos - colocaremos uma imagem, por exemplo;
+ - **environments** - que define as variáveis de ambiente;
+ - **index.html** - página da aplicação - que chama o <app-root>, que é o componente que foi criado com esse seletor;
 
+ ---
+
+ ### Html do AppComponent
 
 
