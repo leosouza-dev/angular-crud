@@ -92,4 +92,8 @@
 
  ### Html do AppComponent
 
+ - Criamos o arquivo - **app.component.html**;
+ - chamamos no arquivo app.comoponent.ts: **templateUrl: './app.component.html'**;
+
+
 
