@@ -66,3 +66,17 @@
 - Bootstrap - componente que será carregado - no módulo inicial.
 
 ---
+
+### Criando App com Angular CLI
+
+- Na pasta do projeto instalar a CLI -> **npm i -g @angular/cli**;
+- Instalado a CLI, rodamos o comando para criar um novo projeto -> **ng new frontend --minimal**;
+- Criado o projeto, entramos na pasta e digitamos o comando **npm start**;
+- Esse comando compila o programa e serve na porta 4200;
+
+---
+
+
+
+
+
