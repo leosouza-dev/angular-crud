@@ -101,4 +101,13 @@
 
 - Dentro da pasta **frontend** rodar o comando: **ng add @angular/material**
 
+---
 
+### Componente Cabeçalho
+
+- Vamos criar o componente pela cli: **ng g c components/template/header**;
+- Esse comando cria a pasta do componentes com os arquivos de ts, html e css e também registra o novo componente no módulo;
+- No **app.component.html** podemos referenciar o seletor desse novo component: **<app-header></app-header>**
+- No Cabeçalho vamos querer add os componentes do Material. Precisamos importar os módulos necessários no nosso arquivo **app.module.ts**;
+- No **app.module.ts**: **import {MatToolbarModule} from '@angular/material/toolbar';**
+- E declaramos o **MatToolbarModule** nos imports;
