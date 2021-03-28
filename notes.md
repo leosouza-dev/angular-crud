@@ -95,5 +95,10 @@
  - Criamos o arquivo - **app.component.html**;
  - chamamos no arquivo app.comoponent.ts: **templateUrl: './app.component.html'**;
 
+---
+
+### Instalando o Material Design
+
+- Dentro da pasta **frontend** rodar o comando: **ng add @angular/material**
 
 
